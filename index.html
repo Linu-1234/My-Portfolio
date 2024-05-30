@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Awesome Portfolio</title>
+    <title>Priyambada Acharya | Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -12,13 +12,13 @@
         <div class="container">
         <nav id="main-nav" class="flex items-center justify-between">
             <div class="left flex items-center">
-               <div class="branding">My Portfolio</div>
+               <div class="branding">Portfolio</div>
                 <div>
                     <a href="#">Home</a>
                     <a href="#about">About</a>
                     <a href="#education">Education</a>
-                    <a href="#services">Serives</a>
-                    <a href="#work">Works</a>
+                    <a href="#services">Skills</a>
+                    <a href="#work">Projects</a>
                 </div>
             </div>
             <div class="right">
@@ -27,18 +27,18 @@
         </nav>
         <div class="hero flex items-center justify-between">
           <div class="left flex-1">
-            <img src="./images/lina image.jpg">
+            <img class="me-image" src="./images/lina image.jpg">
           </div>
           <div class="right flex-1">
             <h6>Priyambada Acharya</h6>
-            <h1>I'm a Web <span>Developer</span></h1>
-            <p> Welcome to my portfolio! I am Priyambada Acharya, a web developer and aspiring graphic designer, I tend to create functional and responsive designs to implement and enhance the outreach of my clientale. I am currently exploring Backend services while I furnish my skills in frontend designing using the required skills.</p>
+            <h1>I'm a <span id="dynamic-text"></span><span class="cursor">|</span></h1>
+            <p> Welcome to my portfolio! I am Priyambada Acharya, a web developer and aspiring graphic designer. I tend to create functional and responsive designs to implement and enhance the outreach of my clientele. I am currently exploring Backend services while I furnish my skills in frontend designing using the required skills.</p>
             <div>
-              <button class="btn  btn-secondary">DOWNLOAD CV</button>
+              <button class="btn btn-secondary">DOWNLOAD CV</button>
             </div>
           </div>
         </div>
-    </div>
+      </div>
     </header>
     <section id="about" class="about">
       <div class="container flex items-center">
@@ -82,67 +82,83 @@
           <div class="card">
             <h3>Matriculation</h3>
             <p>S.M. Girls' High School,BBSR</p>
-            <p>percentage:92.33%</p>
+            <p style="font-weight: bold;">Percentage</p><p>92.33%</p>
           </div>
           <div class="card">
             <h3>Intermediate</h3>
             <p>BJB Higher Secondary School,BBSR</p>
-            <p>percentage:91.67%</p>
+            <p style="font-weight: bold;">Percentage</p><p>91.67%</p>
           </div>
           <div class="card">
             <h3>Undergraduation</h3>
             <p>Veer Surendra Sai University Of Technology,Burla</p>
-            <p>CGPA:8.21</p>
+            <p style="font-weight: bold;">CGPA</p><p>8.21</p>
           </div>
         </div>
       </div>
       </section>
     <section id="services" class="services">
       <div class="container">
-      <h1 class="section-heading"><span>My </span> Services</h1>
-      <p>I provide high standard clean websites for your business solutions.</p>
+      <h1 class="section-heading"><span>My </span> Skills</h1>
+      <p>My skillset as per domain</p>
       <div class="card-wrapper">
-        <div class="card">
-          <img src="./images/gd_logo-removebg-preview.png" alt="">
-          <h2>Graphic Design</h2>
-          <p>I provides the best graphic designs according to the needs and requirements of my clients. </p>
+        <div class="card" style="border-radius: 30px;">
+          <img style="border-radius: 20pc;"   src="./images/gd_logo-removebg-preview.png" alt="">
+          <h2 style="font-weight: 600;">Graphic Design</h2>
+          <p class="inline-list">
+            
+              <li>Adobe Photoshop</li>
+              <li>Figma</li>
+              <li>Canva</li>
+            
+          </p>
         </div>
         <div class="card">
-          <img src="./images/webdev_logo-removebg-preview.png" alt="">
-          <h2>Web Development</h2>
-          <p>I provides the best websites according to the needs and requirements of my clients. </p>
+          <img style="border-radius: 20pc;" src="./images/webdev_logo-removebg-preview.png" alt="">
+          <h2  style="font-weight: 600;">Web Development</h2>
+          <p class="inline-list">
+            
+            <li>HTML/CSS5</li>
+            <li>JavaScript</li>
+            <li>Bootstrap 5</li>
+          
+        </p>
         </div>
+        
       </div>
     </div>
     </section>
     <section id="work" class="work">
       <div class="container">
-        <h1 class="section-heading"><span>My</span> Works</h1>
-        <p>I provide high standard clean websites for your business solutions.</p>
-        <div class="card-wrapper">
-          <div class="card">
-            <div class="overlay">
-              <span>Category</span>
+        <h1 class="section-heading"><span>My</span> Projects</h1>
+        <p>Contributions in Open Source and personal projects are my primary form of experience</p>
+        <div class="card-wrapper" style="font-family: Montserrat;">
+          <div class="card" style="border-radius: 30px">
+            <div class="overlay" style="font-family: Montserrat; border-radius: 30px;">
+              <span>GitHub</span>
               <a href="https://linu-1234.github.io/ieeeproject/">Payment Page</a>
             </div>
-            <img src="./images/paymentpage.png" alt="">
-            <p>A simple payment page made using html and css only.</p>
+            <img  style="border-radius: 30px" src="./images/paymentpage.png" alt="">
+            <p style="font-family: Montserrat;">A payment page designed leveraging the functionalities of the basic web technology stack.</p>
+            <p style="font-weight: 200; ">Stack : </p><p>HTML/CSS/Javascript</p>
           </div>
           <div class="card">
-            <div class="overlay">
-              <span>Category</span>
+            <div class="overlay" style="font-family: Montserrat; border-radius: 30px;">
+              <span>GitHub</span>
               <a href="https://linu-1234.github.io/codsoft-internship/index2.html">Landing Page</a>
             </div>
-            <img src="./images/landingpage.png" alt="">
-            <p>A simple landing page using html and css only.</p>
+            <img  style="border-radius: 30px" src="./images/landingpage.png" alt="">
+            <p style="font-family: Montserrat;">A travel landing page designed using Canva and implement through HTML for web layout and CSS for styling.</p>
+            <p style="font-weight: 200; ">Stack : </p><p>HTML/CSS</p>
           </div>
           <div class="card">
-            <div class="overlay">
-              <span>Category</span>
+            <div class="overlay "" style="border-radius: 30px;">
+              <span>GitHub</span>
               <a href="https://linu-1234.github.io/codsoft-internship/index3.html">Caculator</a>
             </div>
-            <img src="./images/calculator.png" alt="">
-            <p>A simple calculator using html,css and Javascript.</p>
+            <img  style="border-radius: 30px" src="./images/calculator.png" alt="">
+            <p style="font-family: Montserrat;">A calculator designed for logic building through JavaScript and HTML/CSS for web layout.</p>
+            <p style="font-weight: 200; ">Stack : </p><p>HTML/CSS/Javascript</p>
           </div>
         </div>
       </div>
@@ -162,26 +178,17 @@
           <h1>E-Mail Me At</h1>
           <h6>priyambadaacharya1@gmail.com</h6>
         </div>
-        <div class="card">
+        <div class="card ">
           <img src="./images/address-removebg-preview.png" alt="">
-          <h1>Visit Me At</h1>
-          <h6>Plot no.-578,Mahaveer,Samantarapur,Bbsr,751002</h6>
+          <h1>Address</h1>
+          <h6>Bhubaneswar, Odisha</h6>
         </div>
       </div>
-      <form>
-        <div class="input-wrap">
-          <input type="text" placeholder="Your Name">
-          <input type="email" placeholder="Your  E-mail">
-        </div>
-        <div class="input-wrap-2">
-          <input type="text" placeholder="Your Subject">
-          <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
-        </div>
-      </form>
       <div class="btn-wrapper">
-        <button class="btn btn-primary">SEND MESSAGE</button>
-      </div> 
+        <a href="mailto:priyambadaacharya1@gmail.com" class="btn btn-primary" style="text-decoration: none;">Email Me!</a>
+    </div>
     </div>
     </section>
+    <script src="js/script.js"></script>
   </body>
 </html>

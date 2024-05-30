@@ -16,6 +16,7 @@
     cursor:pointer;
     text-transform: uppercase;
     transition:all .3s ease;
+    border-radius: 20px;
     
 }
 .btn-primary{
@@ -38,6 +39,7 @@
 }
 .flex-1{
     flex:1;
+    border-radius: 20px;
 }
 .justify-center{
     justify-content: center;
